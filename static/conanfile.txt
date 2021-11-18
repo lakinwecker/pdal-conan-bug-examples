@@ -1,0 +1,5 @@
+[requires]
+pdal/2.3.0
+
+[generators]
+cmake
