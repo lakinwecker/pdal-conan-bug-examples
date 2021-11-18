@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "dggs-sandbox"
+version = "0.1.0"
+description = ""
+authors = ["Lakin Wecker <lakin.wecker@ucalgary.ca>"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+conan = "^1.42.1"
+invoke = "^1.5.0"
+breathe = "^4.30.0"
+Sphinx = "^4.0.1"
+colorama = "^0.4.4"
+rich = "^10.7.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
